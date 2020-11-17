@@ -3,6 +3,4 @@ COPY screenpics.sql /usr/src/sqldump/
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY projects /usr/share/nginx/html/
 
-EXPOSE 80
-EXPOSE 81
-EXPOSE 82
+EXPOSE 80 81 82
